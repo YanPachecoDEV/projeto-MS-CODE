@@ -59,9 +59,16 @@ Tecnologias utilizadas no projeto:
 ![Mensagem](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa5.png)
 
 
-###  Foi utilizado o BOOTSTRAP como ferramenta de estilização e responsividade.
+###  Foi utilizado o BOOTSTRAP como framework de estilização e responsividade.
+Utilize o atalho [Ctrl + Shift + i] para poder testar a responsividade
 
 ![Responsividade](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/responsivo1.png)
+
+### O site também mostra números de clientes satisfeitos, avaliações anteriores, e alguns dados da empresa.
+
+![Estatisticas](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/estat%C3%ADsticas.png)
+![avaliacoes](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/avalaiacoes.png)
+
 
 ### Você pode estar acessando rapidamente a parte desejada do site através dos botões no menu da barra de navegação.
 Clicando, ele te "levará" até o ponto com um scroll suave.
