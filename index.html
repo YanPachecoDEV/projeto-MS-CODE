@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Móveis Simonetti - Pesquisa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Ícone -->
+  <link href="assets/img/ms.png" rel="icon">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+ 
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+  <!-- ======= Cabeçalho ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <!--Inserir logo com link-->
+                
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
+          <li><a class="nav-link scrollto" href="#about">Pesquisa</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Avaliações</a></li>
+          <li><a class="nav-link scrollto" href="https://www.moveissimonetti.com.br" target="_blank">Loja</a></li>
+          <li class="dropdown"><a href="#"><span>Redes Sociais</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://www.instagram.com/moveis.simonetti/" target="_blank"> <i class="bi bi-instagram"></i> &nbsp Instagram</a></li>
+              <li><a href="https://www.facebook.com/moveissimonetti" target="_blank"></i> <i class="bi bi-facebook"></i> &nbsp Facebook</a></li>
+              <li><a href="https://www.youtube.com/user/canalsimonetti" target="_blank"><i class="bi bi-youtube"></i>Youtube</a></li>
+              </ul>
+            </ul>
+          </li> 
+         <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Texto principal ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Pesquisa de satisfação do cliente</h1>
+            <h2>Sua opinião é muito importante, para podermos aprimorar nosso
+              trabalho cada vez mais!
+            </h2>
+            
+              <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto">INICIAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/hero-img.png" width="1000" height="auto" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="2" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- Texto principal -->
+
+  <main id="main">
+
+    <!-- ======= Pesquisa  ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+        <div class="container">	
+          <div class="row">
+              <div class="two-thirds-column">
+                
+                <h2><strong>Responda este rápido questionáro</strong></h2>
+             
+      
+              <div id="progress_bar"></div>
+                  <form class="questions_box" action="alerta" onsubmit="return_validate()">
+      
+                      <div id="question-1">
+                        <h2><strong>ATENDIMENTO</strong></h2>
+                          <h3>Como você classifica o nosso atendimento?</h3>
+                          <input id="question-1-answer-a" type="radio" name="favelang" value=0> Ruim, poderia melhorar! <br>
+                          <input id="question-1-answer-b" type="radio" name="favelang" value=1> Bom, gostei do atendimento! <br>
+                          <input id="question-1-answer-c" type="radio" name="favelang" value=2> Ótimo, fui muito bem atendido(a)! <br>
+                          <div id="submit1" class="button">Enviar Resposta</div>
+                          <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                  <div class="clearfix"></div>
+                      </div>
+      
+                     <div id="question-2">
+                         <h2><strong>ENTREGA</strong></h2>
+                         <h3>Como você classifica a nossa entrega?</h3>
+                       <input id="question-2-answer-a" type="radio" name="favelang" value="0"> Ruim, muito demorado! <br>
+                         <input id="question-2-answer-b" type="radio" name="favelang" value="1"> Bom, achei o prazo normal! <br>
+                         <input id="question-2-answer-c" type="radio" name="favelang" value="2"> Ótimo, entrega super rápida! <br>
+                         <div id="submit2" class="button">Enviar Resposta</div>
+                         <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                 <div class="clearfix"></div>
+                     </div>
+                    
+                     <div id="question-3">	
+                         <h2><strong>GARANTIA</strong></h2>
+                         <h3>Como você classifica a nosso sistema de garantia?</h3>
+                       <input id="question-3-answer-a" type="radio" name="favelang" value="0"> Ruim, foi muito difícil acionar a garantia! <br>
+                         <input id="question-3-answer-b" type="radio" name="favelang" value="1"> Bom, poderia facilitar o meio para acionar a garantia! <br>
+                         <input id="question-3-answer-c" type="radio" name="favelang" value="2"> Ótimo, muito fácil e rápido para acionar! <br>
+                         <div id="submit3" class="button">Enviar Resposta</div>
+                         <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                 <div class="clearfix"></div>
+                     </div>
+      
+               <div id="question-4">
+                  <h2><strong>COMPRAR NOVAMENTE</strong></h2>
+                  <h3>Você compraria novamente na Móveis Simonetti?</h3>
+                  <input id="question-1-answer-a" type="radio" name="favelang" value="0"> Não! <br>
+                  <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Talvez! <br>
+                  <input id="question-1-answer-c" type="radio" name="favelang" value="2"> Sim, com certeza! <br>
+                  <div id="submit4" class="button">Enviar Resposta</div>
+                  <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                  <div class="clearfix"></div>
+                </div>
+      
+                <div id="question-5">
+                  <h2><strong>INDICAÇÃO</strong></h2>
+                  <h3>Você indicaria a Móveis Simonetti?</h3>
+                  <input id="question-1-answer-a" type="radio" name="favelang" value="0"> Não!<br>
+                  <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Talvez!<br>
+                  <input id="question-1-answer-c" type="radio" name="favelang" value="2"> Sim, com certeza!<br>
+                  <div id="submit5" class="button">Enviar Resposta</div>
+                  <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                  <div class="clearfix"></div>
+                </div>
+      
+               <div id="question-6"> 
+                 <h2><strong>Obrigado por responder a pesquisa!</strong></h2>
+                 <h3>De 0 à 10, seu nível de satisfação é: </h3>
+                 <h1 id=printtotalscore></h1>
+                 <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</h2>
+                 <p id=printscoreinfo></p>
+                 
+                </div>
+
+               </div>
+                      
+                                             
+                  </form>
+                  
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </section><!-- Pesquisa -->
+
+    
+    <!-- ======= Estatísticas ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3585" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Clientes Satisfeitos</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8465" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Vendas</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2375" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Horas de Suporte</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Funcionários</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- Estatísticas -->
+
+    <!-- ======= Avaliações Fictícias ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Antonio</h3>
+                <h4>Cliente a 10 anos</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  É incrível como a Móveis Simonetti se importa com seus clientes. Produtos com preço baixo e de ótima qualidade, sem contar na qualidade do atendimento, sempre fui bem recepcionado. Nunca tive problemas, indico MS a todos!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.webp" class="testimonial-img" alt="">
+                <h3>Maria Angela</h3>
+                <h4>Cliente Novo</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Realizei três compras na Móveis Simonetti, e a cada compra que faço, minha fidelidade com a loja cresce cada vez mais, pois além de produtos com preço baixo, a loja disponibiliza vários métodos de pagamento, facilitando sua compra seja la qual for sua classe econômica. Irei comprar mais vezes!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="">
+                <h3>Mariana</h3>
+                <h4>Cliente a 2 anos</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                   Tive problemas com o produto comprado, e tive que acionar a garantia do mesmo com a fabricante, pois eu nao solicitei <strong>garantia estendida</strong> da loja no ato da compra, e foi muito difícil resolver com a fabricante.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Avaliações Fictícias -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Madson</h3>
+                <h4>Cliente Novo</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Em questão de preços e qualidade, a loja esta de parabéns, só que o atendimento fica a desejar, com isso, eu não indicaria a Móveis Simonetti.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Avaliações Fictícias -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Jorge</h3>
+                <h4>Cliente a 8 anos</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Sempre fico de olho nas promoções da Móveis Simonetti, a variedade de produtos com ótimo preço, é impressionante. Já indiquei a loja várias vezes e continuarei sendo cliente!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Avaliações Fictícias -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- Avaliações Fictícias -->
+
+    
+    
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Móveis Simonetti</span></strong>. Todos os direitos reservados.
+      </div>
+      </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- CSS e SCRIPTS JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/scriptpesquisa.js"></script>
+  <link href="assets/css/stylepesquisa.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</body>
+
+</html>
