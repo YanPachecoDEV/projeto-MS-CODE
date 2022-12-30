@@ -37,7 +37,7 @@ Tecnologias utilizadas no projeto:
 
 ## Como utilizar (Parte 2)
 
-### 1 - Clique em um dos intens na barra de navegação, ou clique no boão "Iniciar" para iniciar a pesquisa.
+### 1 - Clique em um dos itens na barra de navegação, ou clique no boão "Iniciar" para iniciar a pesquisa.
 
 ![Inicio](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/cabecalho.png)
 
