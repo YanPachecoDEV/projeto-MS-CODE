@@ -32,7 +32,7 @@ Tecnologias utilizadas no projeto:
   
 * Execute o arquivo "index.html".
    
-* Clique em um dos intens na barra de navegação, ou clique no boão "Iniciar" para iniciar a pesquisa.
+* Clique em um dos itens na barra de navegação, ou clique no boão "Iniciar" para iniciar a pesquisa.
 
 
 ## Como utilizar (Parte 2)
