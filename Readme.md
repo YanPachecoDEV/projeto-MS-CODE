@@ -63,7 +63,8 @@ Tecnologias utilizadas no projeto:
 
 ![Responsividade](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/responsivo1.png)
 
-### 8 - Você pode estar acessando rapidamente a parte desejada do site através do botões no cabeçalho, clicando, ele te "levará" até o ponto com um scroll suave.
+### 8 - Você pode estar acessando rapidamente a parte desejada do site através dos botões no menu da barra de navegação.
+Clicando, ele te "levará" até o ponto com um scroll suave.
 
 ![NAVbar](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/NAVbar.png)
 
