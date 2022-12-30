@@ -59,25 +59,22 @@ Tecnologias utilizadas no projeto:
 ![Mensagem](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa5.png)
 
 
-### 7 - Foi utilizado o BOOTSTRAP como ferramenta de estilização e responsividade.
+###  Foi utilizado o BOOTSTRAP como ferramenta de estilização e responsividade.
 
 ![Responsividade](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/responsivo1.png)
 
-### 8 - Você pode estar acessando rapidamente a parte desejada do site através dos botões no menu da barra de navegação.
+### Você pode estar acessando rapidamente a parte desejada do site através dos botões no menu da barra de navegação.
 Clicando, ele te "levará" até o ponto com um scroll suave.
 
 ![NAVbar](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/NAVbar.png)
 
+###  Botão para retornar rapidamente ao topo do site.
 
-## Features
-
-The main features of the application are:
- - Publish Posts.
- - Learn a lot of information <3
+![NAVbar](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/botao%20Back%20to%20Top.png)
 
 
 ## Links
-  - Repository: https://github.com/YanPachecoDEV
+  - Repositório: https://github.com/YanPachecoDEV
     - Em caso de bugs sensíveis, como vulnerabilidades de segurança ou layout quebrado, entre em contato
       por e-mail yanbreakdown@gmail.com para melhorar este projeto!
 
