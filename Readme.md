@@ -59,7 +59,7 @@ Tecnologias utilizadas no projeto:
 ![Mensagem](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/pesquisa5.png)
 
 
-### 7 - Foi utilizado a BOOTSTRAP como ferramenta de estilização e responsividade.
+### 7 - Foi utilizado o BOOTSTRAP como ferramenta de estilização e responsividade.
 
 ![Responsividade](https://github.com/YanPachecoDEV/projeto-MS-CODE/blob/master/assets/public/readme/responsivo1.png)
 
