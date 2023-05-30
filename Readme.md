@@ -20,7 +20,7 @@ Tecnologias utilizadas no projeto:
 * CSS
 * JavaScript
 
-## Services Used
+## Serviços Usados
 
 * Github
 
